@@ -1,0 +1,35 @@
+LP1
+
+Exercicios 3
+
+1-
+a) Os tipos de dados são formas de classificar dados baseados em seu conteúdo, utilidade e quantidade de armazenamento que será ocupado. Existindo tipos para diferenciar caracteres, números de diferentes formas (como usar ou não casas decimais) e tamanhos. 
+
+
+b) Tipos são utilizados por diversos motivos, como utilizar a quantidade certa de armazenamento nos dados, usar operações lógicas como o caso do tipo bool, dividir o comportamente que funções terão para essas diferentes classes. (Ex: 5 + 6 possuir diferentes resultados dependendo dos tipos de 5 e 6.) 
+Além de que definir os tipos leva a resultados esperados (resolvendo a dúvida de qual seria o resultado do exemplo anterior.) 
+
+
+2-
+a) O programa deve dar erro pois está tentando subtrair caracteres de um número inteiro, que são de tipos diferentes.
+
+b) Os tipos são respectivamente: 100 sendo int e "10" char *
+
+c) Erro: operandos inválidos para binário (possuindo 'int' e 'char *')
+O operador - não funciona corretamente pelo uso de dois tipos que não fazem sentido para sua função.
+
+4-
+a) A tipagem de uma linguagem é considerada dinâmica (por exemplo) quando não é necessário declarar o tipo da variável que está sendo usada, nesta tipage o tipo é definido pelo valor da variável, dessa maneira o computador checa a compatibilidade dos tipos durante a execução. Enquanto que, na tipagem estática é necessário declarar os tipos das variáveis para que o código funcione, assim o computador é capaz de identificar os tipos do código antes de roda-lo.
+
+b) Tipagem estática: Java, C, C++, C#, Go, Rust
+   Tipagem dinâmica: Python, JavaScript, Ruby, PHP
+
+c) Uma linguagem com tipagem estática precisa passar por menos processos na execução de seu código do que uma com tipagem dinâmica, pois nela não há a necessidade de identificar quais tipos cada variável possui durante a sua execução. 
+Ex:
+em python ao escrever:
+x = 30
+y = sim
+A linguagem "entenderá" automaticamente que o valor de x é do tipo int e o valor de y é do tipo string, porém, como isso não foi informado no código, o Python precisou passar por uma série de verificações desses valores para identificar que esses são os tipos corretos.
+Enquanto que em C, esse código nem sequer funcionaria por não ter de forma explicitamente declarada quais tipos cada variável possui.
+
+
