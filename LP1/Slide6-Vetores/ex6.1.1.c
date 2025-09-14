@@ -13,7 +13,7 @@ void preenche (int *vetor, int n){
 }
 
 float media(int *vetor, int n){
-    int valor = 0;
+    float valor = 0;
     for (int i = 0; i<n; i++){
         valor += *(vetor+i);
     }
