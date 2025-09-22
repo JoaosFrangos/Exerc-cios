@@ -1,0 +1,6 @@
+4)
+- No exercício 2, é necessário criar uma variável e completá-la antes de retornar os valores da função. No exercício 3, como é preciso receber um ponteiro, não é necessário criar uma nova variável para preencher os valores mas sim usar esse ponteiro para preencher os campos da variável recebida.
+
+- Prefiro a abordagem do exercício 3, pois ele economiza memória.
+
+- Creio que a segunda abordagem deva ser levemente mais leve em questão de armazenamento por não possuir a necessidade de criar uma nova variável e consequentemente mais rápida por isso também, além de preencher diretamente os valores através do ponteiro ao invés de criar e preencher uma variável e só então copiar esses valores para a variável que se quer preencher de fato.
